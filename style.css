@@ -1,0 +1,64 @@
+.container{
+    max-width: 1420px;
+    margin: 0px auto;
+    background-color: #f7dcdc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.education, 
+.contact, 
+.about, 
+.skills{
+    display: flex;
+}
+
+.header_contact{
+    margin-right: 200px;
+}
+
+.header_education{
+    margin-right: 175px;
+}
+
+.header_about{
+    margin-right: 208px;
+}
+
+.header_skills{
+    margin-right: 220px;
+}
+
+header{
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+main{
+    padding: 10px 40px;
+}
+
+footer{
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_link{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+.nav_link:hover{
+    text-decoration: underline;
+}
+
+.avatar{
+    border-radius: 38%;
+    
+}
