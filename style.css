@@ -1,0 +1,35 @@
+.education, .contact, .about, .skills{
+    display: flex;
+}
+.header_contact{
+    margin-right: 200px;
+}
+.header_education{
+    margin-right: 175px;
+}
+.header_about{
+    margin-right: 205px;
+}
+.header_skills{
+    margin-right: 220px;
+}
+header{
+    margin: auto;
+    text-align: center;
+    background-color: #f7f3f0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+main{
+    background-color: #f7f3f0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #f7f3f0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
